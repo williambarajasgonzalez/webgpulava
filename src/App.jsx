@@ -11,7 +11,7 @@ extend(THREE);
 export default function App() {
   const ppSettings = useControls("Post Processing", {
     strength: {
-      value: 0.4,
+      value: 1.3,
       min: 0,
       max: 10,
       step: 0.1,
@@ -23,7 +23,7 @@ export default function App() {
       step: 0.1,
     },
     threshold: {
-      value: 0.64,
+      value: 0.33,
       min: 0,
       max: 1,
       step: 0.01,
