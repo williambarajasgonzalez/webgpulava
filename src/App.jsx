@@ -31,7 +31,7 @@ export default function App() {
   });
   return (
     <div className="w-full h-screen">
-      <h1 className="absolute text-white z-20 w-full flex justify-center p-2" >Kidunseen CC150 Aura</h1>
+      <h1 className="absolute text-white z-20 w-full flex justify-center p-2" >Lava</h1>
       <Canvas
         gl={async (props) => {
           const renderer = new THREE.WebGPURenderer(props);
