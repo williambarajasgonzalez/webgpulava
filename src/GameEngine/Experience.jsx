@@ -1,10 +1,10 @@
 import React from 'react'
-import Aura from '../Models/Aura'
+import Lava from '../Models/Lava'
 
 export default function Experience() {
   return (
     <>
-      <Aura/>
+      <Lava/>
     </>
   )
 }
